@@ -131,9 +131,13 @@ The biggest number of consecutive zeros is 3.
 
 Define a function named consecutive_zeros that takes a single parameter, which is the string of zeros and ones. Your function should return the number described above.
 
+<h1>Challenge - All equal</h1>
+Define a function named all_equal that takes a list and checks whether all elements in the list are the same.
 
+For example, calling all_equal([1, 1, 1]) should return True.
 
-
+<h1>Challenge - Boolean and</h1>
+Define a function named triple_and that takes three parameters and returns True only if they are all True and False otherwise.
 
 
 
