@@ -82,4 +82,49 @@ Should return the list:
 
 [1, 2, 3, 4]
 
+<h1>Challenge - Min-maxing</h1>
+Define a function named largest_difference that takes a list of numbers as its only parameter.
+
+Your function should compute and return the difference between the largest and smallest number in the list.
+
+For example, the call largest_difference([1, 2, 3]) should return 2 because 3 - 1 is 2.
+
+You may assume that no numbers are smaller or larger than -100 and 100.
+
+<h1>Challenge - Divisible by 3</h1>
+Define a function named div_3 that returns True if its single integer parameter is divisible by 3 and False otherwise.
+
+For example, div_3(6) is True because 6/3 does not leave any remainder. However div_3(5) is False because 5/3 leaves 2 as a remainder.
+
+<h1>Challenge - Tic tac toe input</h1>
+Here's the backstory for this challenge: imagine you're writing a tic-tac-toe game, where the board looks like this:
+
+1:  X | O | X
+   -----------
+2:    |   |  
+   -----------
+3:  O |   |
+
+    A   B  C
+The board is represented as a 2D list:
+
+board = [
+    ["X", "O", "X"],
+    [" ", " ", " "],
+    ["O", " ", " "],
+]
+Imagine if your user enters "C1" and you need to see if there's an X or O in that cell on the board. To do so, you need to translate from the string "C1" to row 0 and column 2 so that you can check board[row][column].
+
+Your task is to write a function that can translate from strings of length 2 to a tuple (row, column). Name your function get_row_col; it should take a single parameter which is a string of length 2 consisting of an uppercase letter and a digit.
+
+For example, calling get_row_col("A3") should return the tuple (2, 0) because A3 corresponds to the row at index 2 and column at index 0in the board.
+
+
+
+
+
+
+
+
+
 
