@@ -97,15 +97,7 @@ Define a function named div_3 that returns True if its single integer parameter 
 For example, div_3(6) is True because 6/3 does not leave any remainder. However div_3(5) is False because 5/3 leaves 2 as a remainder.
 
 <h1>Challenge - Tic tac toe input</h1>
-Here's the backstory for this challenge: imagine you're writing a tic-tac-toe game, where the board looks like this:
-
-  X | O | X
- -----------
-    |   |  
- -----------
-  O |   |
-
-    A   B  C
+Here's the backstory for this challenge: imagine you're writing a tic-tac-toe game.
 The board is represented as a 2D list:
 
 board = [
@@ -119,7 +111,12 @@ Your task is to write a function that can translate from strings of length 2 to 
 
 For example, calling get_row_col("A3") should return the tuple (2, 0) because A3 corresponds to the row at index 2 and column at index 0in the board.
 
+<h1>Challenge - Palindrome</h1>
+A string is a palindrome when it is the same when read backwards.
 
+For example, the string "bob" is a palindrome. So is "abba". But the string "abcd" is not a palindrome, because "abcd" != "dcba".
+
+Write a function named palindrome that takes a single string as its parameter. Your function should return True if the string is a palindrome, and False otherwise.
 
 
 
