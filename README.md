@@ -99,11 +99,11 @@ For example, div_3(6) is True because 6/3 does not leave any remainder. However 
 <h1>Challenge - Tic tac toe input</h1>
 Here's the backstory for this challenge: imagine you're writing a tic-tac-toe game, where the board looks like this:
 
-1:  X | O | X
-   -----------
-2:    |   |  
-   -----------
-3:  O |   |
+  X | O | X
+ -----------
+    |   |  
+ -----------
+  O |   |
 
     A   B  C
 The board is represented as a 2D list:
