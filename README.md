@@ -25,3 +25,15 @@ In this case, the number of people online is 2.
 Write a function named online_count that takes one parameter. The parameter is a dictionary that maps from strings of names to the string "online" or "offline", as seen above.
 
 Your function should return the number of people who are online.
+
+<h1>Challenge - Randomness</h1>
+Define a function, random_number, that takes no parameters. The function must generate a random integer between 1 and 100, both inclusive, and return it.
+
+Calling the function multiple times should (usually) return different numbers.
+
+For example, calling random_number() some times might first return 42, then 63, then 1.
+
+<h1>Challenge - Type check</h1>
+Write a function named only_ints that takes two parameters. Your function should return True if both parameters are integers, and False otherwise.
+
+For example, calling only_ints(1, 2) should return True, while calling only_ints("a", 1) should return False.
