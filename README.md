@@ -118,6 +118,26 @@ For example, the string "bob" is a palindrome. So is "abba". But the string "abc
 
 Write a function named palindrome that takes a single string as its parameter. Your function should return True if the string is a palindrome, and False otherwise.
 
+<h1>Challenge - Up and down</h1>
+Define a function named up_down that takes a single number as its parameter. Your function return a tuple containing two numbers; the first should be one lower than the parameter, and the second should be one higher.
+
+For example, calling up_down(5) should return (4, 6).
+
+<h1>Challenge - Consecutive zeros</h1>
+The goal of this challenge is to analyze a binary string consisting of only zeros and ones. Your code should find the biggest number of consecutive zeros in the string. For example, given the string:
+
+"1001101000110"
+The biggest number of consecutive zeros is 3.
+
+Define a function named consecutive_zeros that takes a single parameter, which is the string of zeros and ones. Your function should return the number described above.
+
+
+
+
+
+
+
+
 
 
 
