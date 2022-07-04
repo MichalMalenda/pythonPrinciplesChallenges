@@ -139,11 +139,87 @@ For example, calling all_equal([1, 1, 1]) should return True.
 <h1>Challenge - Boolean and</h1>
 Define a function named triple_and that takes three parameters and returns True only if they are all True and False otherwise.
 
+<h1>Challenge - Writing short code</h1>
+Define a function named convert that takes a list of numbers as its only parameter and returns a list of each number converted to a string.
 
+For example, the call convert([1, 2, 3]) should return ["1", "2", "3"].
 
+What makes this tricky is that your function body must only contain a single line of code.
 
+<h1>Challenge - Custom zip</h1>
+The built-in zip function "zips" two lists. Write your own implementation of this function.
 
+Define a function named zap. The function takes two parameters, a and b. These are lists.
 
+Your function should return a list of tuples. Each tuple should contain one item from the a list and one from b.
+
+You may assume a and b have equal lengths.
+
+If you don't get it, think of a zipper.
+
+For example:
+
+zap(
+    [0, 1, 2, 3],
+    [5, 6, 7, 8]
+)
+Should return:
+
+[(0, 5),
+ (1, 6),
+ (2, 7),
+ (3, 8)]
+
+<h1>Challenge - Solution validation</h1>
+The aim of this challenge is to write code that can analyze code submissions. We'll simplify things a lot to not make this too hard.
+
+Write a function named validate that takes code represented as a string as its only parameter.
+
+Your function should check a few things:
+
+the code must contain the def keyword
+otherwise return "missing def"
+the code must contain the : symbol
+otherwise return "missing :"
+the code must contain ( and ) for the parameter list
+otherwise return "missing paren"
+the code must not contain ()
+otherwise return "missing param"
+the code must contain four spaces for indentation
+otherwise return "missing indent"
+the code must contain validate
+otherwise return "wrong name"
+the code must contain a return statement
+otherwise return "missing return"
+If all these conditions are satisfied, your code should return True.
+
+Here comes the twist: your solution must return True when validating itself.
+
+<h1>Challenge - List xor</h1>
+Define a function named list_xor. Your function should take three parameters: n, list1 and list2.
+
+Your function must return whether n is exclusively in list1 or list2.
+
+In other words, if n is in both lists or in none of the lists, return False. If n is in only one of the lists, return True.
+
+For example:
+
+list_xor(1, [1, 2, 3], [4, 5, 6]) == True
+list_xor(1, [0, 2, 3], [1, 5, 6]) == True
+list_xor(1, [1, 2, 3], [1, 5, 6]) == False
+list_xor(1, [0, 0, 0], [4, 5, 6]) == False
+
+<h1>Challenge - Counting parameters</h1>
+Define a function param_count that takes a variable number of parameters. The function should return the number of arguments it was called with.
+
+For example, param_count() should return 0, while param_count(2, 3, 4) should return 3.
+
+<h1>Challenge - Thousands separator</h1>
+Write a function named format_number that takes a non-negative number as its only parameter.
+
+Your function should convert the number to a string and add commas as a thousands separator.
+
+For example, calling format_number(1000000) should return "1,000,000".
 
 
 
